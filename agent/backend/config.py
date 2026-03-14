@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     CHROMA_DIR: Path = DATA_DIR / "chroma"
 
     OPENAI_API_KEY: str | None = None
-    EMBEDDING_MODEL: str = "text-embedding3_small"
+    EMBEDDING_MODEL: str = "text-embedding3_small" # Actualizar por el modelo que utilicemos 
 
     TOP_K: int = 5
     MIN_RELEVANCE_SCORE: float = 0.5
